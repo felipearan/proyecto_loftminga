@@ -11,12 +11,14 @@
     <!-- SASS CSS -->
     <link rel="stylesheet" href="css/main.css"/>
     <title>Home Loft Minga</title>
+    <!-- ICONS -->
+    <script src="https://kit.fontawesome.com/233736277d.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
        <div class="container">
-        <a class="navbar-brand" href="#">Loftminga</a>
+        <a class="navbar-brand" href="index.html">Loftminga</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,33 +45,126 @@
             </div>
     </nav>
 
-<!-- Header -->
-<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light contactanos">
-  <div class="col-md-5 p-lg-5 mx-auto my-5 seccion_contacto">
-    <h1 class="display-4 font-weight-normal">Revisa nuestros modelos</h1>
-    <p class="lead font-weight-normal">¡Tenemos un modelo "low cost" y otro premium, revisa sus caracteristicas y no dudes en cotizar tu próximo loft con nosotros!</p>
-    <a class="button" href="#">Coming soon</a>
+<!-- Modelos -->
+<section class="modelos">
+<div class="container pt-5 mt-6">
+  <div class="row">
+    <div class="col-3">
+      <p class="sub_titulo">¡Agenda tu visita hoy!</p>
+    </div>
+    <div class="col-12 pb-4">
+      <h1>Conoce nuestros modelos estandar y Pro</h1>
+      <p><a href="modelos.html"><button class="button"> Revisa nuestros modelos</button></a></p>
+    </div>
   </div>
-  <div class="product-device shadow-sm d-none d-md-block"></div>
-  <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+</section>
+
+<section>
+  <div class="container">
+  <ul class="nav nav-pills justify-content-center list-unstyled m-3" id="pills-tab" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active button m-2" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">PUDÚ ESTANDAR</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link button m-2" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">PUDÚ PRO</a>
+    </li>
+  </ul>
+  <div class="tab-content" id="pills-tabContent">
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h5 class="justify-content-center font-weight-bold">PUDÚ ESTANDAR</h5>
+          </div>
+          <div class="col-sm-8">
+            <img class="img-thumbnail" src="fotos/exterior1/exterior1.jpeg" alt="">
+          </div>
+          <div class="col-sm-4">
+            <ul class="list-unstyled mt-5">
+              <li><i class="fas fa-utensils fa-3x"></i><h5>Cocina Amoblada.</h5></li>
+              <li><i class="fas fa-sink fa-3x"></i><h5>Baño equipado.</h5></li>
+              <li><i class="fas fa-fire-alt fa-3x"></i><h5>Calefont exterior.</h5></li>
+              <li><i class="far fa-window-maximize fa-3x"></i><h5>Ventanas con Perfileria de PVC.</h5></li>
+              <li><i class="fas fa-lightbulb fa-3x"></i><h5>Iluminación LED decorativa con cinta perimetral interior y exterior.</h5></li>
+              <li><i class="fas fa-drumstick-bite fa-3x"></i><h5>Quincho con Parrilla.</h5></li>
+            </ul>
+          </div>
+            <div class="col-sm-12">
+              <img class="img-thumbnail mt-2" src="fotos/interior/plano.png" alt="">
+            </div>  
+            <div class="col-sm-4">
+              <img class="img-thumbnail mt-2" src="fotos/interior/baño.jpeg" alt="">
+            </div> 
+            <div class="col-sm-4">
+              <img class="img-thumbnail mt-2" src="fotos/interior/interior3.jpeg" alt="">
+            </div> 
+            <div class="col-sm-4">
+              <img class="img-thumbnail mt-2" src="fotos/interior/cocina_principal.jpeg" alt="">
+            </div>
+          </div>
+    </div>
+  </div>
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h5 class="justify-content-center font-weight-bold">PUDÚ PRO
+            </h5>
+          </div>
+          <div class="col-sm-8">
+            <img class="img-thumbnail" src="fotos/exterior1/exterior1.jpeg" alt="">
+          </div>
+          <div class="col-sm-4">
+            <ul class="list-unstyled">
+              <li><i class="fas fa-utensils fa-2x m-2"></i>Cocina Amoblada y equipada</li>
+              <li><i class="fas fa-temperature-low fa-2x m-2"></i>Frigobar</li>
+              <li><i class="fas fa-chair fa-2x m-2"></i>Comedor Integrado</li>
+              <li><i class="fas fa-sink fa-2x m-2"></i>Baño equipado</li>
+              <li><i class="fas fa-fire-alt fa-2x m-2"></i>Calefont exterior.</li>
+              <li><i class="fas fa-bed fa-2x m-2"></i>Mueble Cama</li>
+              <li><i class="fas fa-bed fa-2x m-2"></i>Colchón tamaño king</li>
+              <li><i class="fas fa-fire fa-2x m-2"></i>Estufa a leña (bosca)</li>
+              <li><i class="far fa-window-maximize fa-2x m-2"></i>Ventanas de termopanel con Perfileria de PVC.</li>
+              <li><i class="far fa-window-restore fa-2x m-2"></i>Cortinas roller</li>
+              <li><i class="fas fa-lightbulb fa-2x m-2"></i>Luminaria e iluminación LED decorativa con cinta perimetral interior y exterior.</li>
+              <li><i class="fas fa-drumstick-bite fa-2x m-2"></i>Quincho con Parrilla.</li>
+            </ul>
+          </div>
+            <div class="col-sm-12">
+              <img class="img-thumbnail mt-2" src="fotos/interior/plano.png" alt="">
+            </div>  
+            <div class="col-sm-4">
+              <img class="img-thumbnail mt-2" src="fotos/interior/baño.jpeg" alt="">
+            </div> 
+            <div class="col-sm-4">
+              <img class="img-thumbnail mt-2" src="fotos/interior/interior3.jpeg" alt="">
+            </div> 
+            <div class="col-sm-4">
+              <img class="img-thumbnail mt-2" src="fotos/interior/cocina_principal.jpeg" alt="">
+            </div>
+          </div>
+    </div>
+  </div>
+
+    </div>
+
+  </div>
 </div>
 
-<div class="container">
-  <div class="row">
-    <div class="col-sm contactanos m-2 rounded-3">
-      <h1 class="seccion_contacto text-center">Pudú Estandar</h1>
-    </div>
-    <div class="col-sm contactanos m-2 rounded-3">
-      <h1 class="seccion_contacto text-center">Pudú Pro</h1>
-    </div>
-  </div>
-</div>
+
+</section>
+
+
+
 
 
     <!-- Footer -->
-    <section id="abajo">
+    <section class="footer_black ">
       <div class="container">
-       <footer class="pt-4 my-md-5 pt-md-5 border-top">
+       <footer class="pt-3 my-md-4 pt-md-4">
            <div class="row">
              <div class="col-12 col-md">
                <p>LOFTMINGA</p>
